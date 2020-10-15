@@ -92,6 +92,7 @@ The YAML (.yml) file is used to configure the CLI for building, pushing and depl
 Here's the contents of the YAML file:
 
 ```yaml
+version: 1.0
 provider:
   name: openfaas
   gateway: http://127.0.0.1:8080
@@ -278,6 +279,7 @@ Let's turn on verbose output for your function. This is turned-off by default so
 This is the standard YAML configuration:
 
 ```yaml
+version: 1.0
 provider:
   name: openfaas
   gateway: http://127.0.0.1:8080
@@ -345,6 +347,7 @@ $ mv first.yml example.yml
 Now look at the file:
 
 ```yaml
+version: 1.0
 provider:
   name: openfaas
   gateway: http://127.0.0.1:8080
